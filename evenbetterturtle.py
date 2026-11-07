@@ -72,28 +72,28 @@ class Main():
             if is_key_down(65):#a
                 self.X -= self.speed
 
-            if is_key_down(265):#w
+            if is_key_down(265):#up
                 self.y -= self.speed
 
-            if is_key_down(264):#s
+            if is_key_down(264):#down
                 self.y += self.speed
 
-            if is_key_down(262):#d
+            if is_key_down(262):#right
                 self.x += self.speed
 
-            if is_key_down(263):#a
+            if is_key_down(263):#left
                 self.x -= self.speed
 
-            if is_key_down(85):#w
+            if is_key_down(85):#u
                 self.y_ -= self.speed
 
-            if is_key_down(74):#s
+            if is_key_down(74):#j
                 self.y_ += self.speed
 
-            if is_key_down(75):#d
+            if is_key_down(75):#k
                 self.x_ += self.speed
 
-            if is_key_down(72):#a
+            if is_key_down(72):#h
                 self.x_ -= self.speed
 
             #makes the middle the mouse
